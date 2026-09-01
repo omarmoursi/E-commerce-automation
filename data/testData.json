@@ -1,0 +1,97 @@
+{
+  "URL": "https://automationexercise.com/",
+  "Login": {
+    "ValidCredintails": {
+      "email": "omartes111@gmail.com",
+      "Password": "123456789"
+    },
+    "InvalidCredintails": {
+      "InvalidUsername": {
+        "email": "omartes1116@gmail.com",
+        "Password": "123456789",
+        "validationmessage": "Your email or password is incorrect!"
+      },
+      "InvalidPassword": {
+        "email": "omartes111@gmail.com",
+        "Password": "65656565",
+        "validationmessage": "Your email or password is incorrect!"
+      }
+    }
+  },
+
+
+  "Register":
+  {
+    "name":"younesahmed",
+    "email": "younesahmed@gmail.com",
+    "pass":"123456789",
+    "day":"27",
+    "mon":"October",
+    "year":"1992",
+    "first":"alifirst",
+    "last":"alilast",
+    "comp":"comp",
+    "addr1":"shertonst",
+    "addr2": "shertonsmatsr",
+    "countries": "United States",
+    "states": "cairostate",
+    "cites": "cairo",
+    "zcode": "445566",
+    "mobile": "01125818599",
+    "validationmessage": "Email Address already exist!"
+
+  },
+
+  "contactus":
+  {
+    "name":"omar",
+    "email": "omartes111@gmail.com",
+    "subject":"subject for message",
+    "message":"message for contact us form",
+    "filePath":"C:\\Users\\Omar\\Desktop\\New folder (2)\\test.pdf",
+    "text":"Success! Your details have been submitted successfully."
+  },
+  "review":
+  {
+    "name":"omar",
+    "email": "omartes111@gmail.com",
+    "review":"subjectsubjectsubjectsubjectsubject",
+    "valimessage":"Thank you for your review."
+  },
+
+
+
+   "proudectdetails": {
+     "name":"Blue Top",
+     "catogory": "Category: Women > Tops",
+     "price":"Rs. 500",
+     "avilabilty":"Availability: In Stock",
+     "condtion":"Condition: New",
+     "brand":"Polo"
+   },
+
+
+
+
+  "sreachproudects": {
+
+    "BlueTop": "Blue Top",
+    "MenTshirt":"Men Tshirt"
+  },
+
+  "Creditdata": {
+    "nameoncard":"omar",
+    "cardnumber":12356744,
+    "cv":567,
+    "expiremonth":12,
+    "expireyear":2026
+  },
+
+
+
+
+
+
+  "CATEGORY":"CATEGORY",
+  "BRANDS": "BRANDS"
+}
