@@ -84,7 +84,7 @@ public class BaseTest {
     @BeforeMethod
     public void goHome(Method method) throws Exception {
         driver.get(dataModel().URL);
-    //    screenRecorderUtil.startRecord(method.getName());
+        screenRecorderUtil.startRecord(method.getName());
     }
     @AfterMethod
 
