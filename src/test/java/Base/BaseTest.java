@@ -90,17 +90,17 @@ public class BaseTest {
 
     public void afterMethods(Method method, ITestResult result) throws Exception
     {
-       // screenshotsUtil=new ScreenshotUtil(driver);
-      //  screenshotsUtil.takescreenshot(method.getName());
-     //   reportUtil.setStatus(method,result);
-      //  screenRecorderUtil.stopRecord();
+        screenshotsUtil=new ScreenshotUtil(driver);
+       screenshotsUtil.takescreenshot(method.getName());
+        reportUtil.setStatus(method,result);
+        screenRecorderUtil.stopRecord();
     }
-/*
+
     @AfterClass(alwaysRun = true)
     public void tearDown() {
         if (driver != null) driver.quit();
     }
-*/
+
     @BeforeSuite
     public void beforeSuite() {
         reportUtil = new ReportUtil(driver);
